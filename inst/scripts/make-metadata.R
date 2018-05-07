@@ -19,7 +19,9 @@ meta <- data.frame(
   RDataClass = "List",
   DispatchClass = "Rda",
   ResourceName = "DevHum_low.rda",
-  RDataPath = "brainImageRdata/data/DevHum_low.rda"
+  RDataPath = "brainimageRdata/data/DevHum_low.rda",
+  Genome = "NA",
+  Coordinate_1_based = "FALSE"
 )
 
 ## AdHum
@@ -42,7 +44,9 @@ meta <- rbind(meta, data.frame(
     RDataClass = "List",
     DispatchClass = "Rda",
     ResourceName = "AdHum.rda",
-    RDataPath = "brainImageRdata/data/AdHum.rda"
+    RDataPath = "brainimageRdata/data/AdHum.rda",
+    Genome = "NA",
+    Coordinate_1_based = "FALSE"
   )
 )
 
@@ -66,7 +70,9 @@ meta <- rbind(meta, data.frame(
   RDataClass = "List",
   DispatchClass = "Rda",
   ResourceName = "dev_DIM.rda",
-  RDataPath = "brainImageRdata/data/dev_DIM.rda"
+  RDataPath = "brainimageRdata/data/dev_DIM.rda",
+  Genome = "NA",
+  Coordinate_1_based = "FALSE"
 )
 )
 
@@ -90,7 +96,9 @@ meta <- rbind(meta, data.frame(
   RDataClass = "List",
   DispatchClass = "Rda",
   ResourceName = "ad_DIM.rda",
-  RDataPath = "brainImageRdata/data/ad_DIM.rda"
+  RDataPath = "brainimageRdata/data/ad_DIM.rda",
+  Genome = "NA",
+  Coordinate_1_based = "FALSE"
 )
 )
 
@@ -113,7 +121,9 @@ meta <- rbind(meta, data.frame(
   RDataClass = "List",
   DispatchClass = "Rda",
   ResourceName = "dev_abrev.rda",
-  RDataPath = "brainImageRdata/data/dev_abrev.rda"
+  RDataPath = "brainimageRdata/data/dev_abrev.rda",
+  Genome = "NA",
+  Coordinate_1_based = "FALSE"
 )
 )
 
@@ -137,7 +147,9 @@ meta <- rbind(meta, data.frame(
   RDataClass = "List",
   DispatchClass = "Rda",
   ResourceName = "ad_abrev.rda",
-  RDataPath = "brainImageRdata/data/ad_abrev.rda"
+  RDataPath = "brainimageRdata/data/ad_abrev.rda",
+  Genome = "NA",
+  Coordinate_1_based = "FALSE"
 )
 )
 
@@ -161,7 +173,9 @@ meta <- rbind(meta, data.frame(
   RDataClass = "List",
   DispatchClass = "Rda",
   ResourceName = "dev_outline.rda",
-  RDataPath = "brainImageRdata/data/dev_outline.rda"
+  RDataPath = "brainimageRdata/data/dev_outline.rda",
+  Genome = "NA",
+  Coordinate_1_based = "FALSE"
 )
 )
 
@@ -184,7 +198,9 @@ meta <- rbind(meta, data.frame(
   RDataClass = "List",
   DispatchClass = "Rda",
   ResourceName = "ad_outline.rda",
-  RDataPath = "brainImageRdata/data/ad_outline.rda"
+  RDataPath = "brainimageRdata/data/ad_outline.rda",
+  Genome = "NA",
+  Coordinate_1_based = "FALSE"
 )
 )
 
@@ -206,7 +222,9 @@ meta <- rbind(meta, data.frame(
   RDataClass = "Data Frame",
   DispatchClass = "Rda",
   ResourceName = "dev_conversion.rda",
-  RDataPath = "brainImageRdata/data/dev_conversion.rda"
+  RDataPath = "brainimageRdata/data/dev_conversion.rda",
+  Genome = "NA",
+  Coordinate_1_based = "FALSE"
 )
 )
 
@@ -229,7 +247,9 @@ meta <- rbind(meta, data.frame(
   RDataClass = "Data Frame",
   DispatchClass = "Rda",
   ResourceName = "ad_conversion.rda",
-  RDataPath = "brainImageRdata/data/ad_conversion.rda"
+  RDataPath = "brainimageRdata/data/ad_conversion.rda",
+  Genome = "NA",
+  Coordinate_1_based = "FALSE"
 )
 )
 
@@ -253,7 +273,9 @@ meta <- rbind(meta, data.frame(
   RDataClass = "Vector",
   DispatchClass = "Rda",
   ResourceName = "dev_slices.rda",
-  RDataPath = "brainImageRdata/data/dev_slices.rda"
+  RDataPath = "brainimageRdata/data/dev_slices.rda",
+  Genome = "NA",
+  Coordinate_1_based = "FALSE"
 )
 )
 
@@ -277,7 +299,9 @@ meta <- rbind(meta, data.frame(
   RDataClass = "Vector",
   DispatchClass = "Rda",
   ResourceName = "ad_slices.rda",
-  RDataPath = "brainImageRdata/data/ad_slices.rda"
+  RDataPath = "brainimageRdata/data/ad_slices.rda",
+  Genome = "NA",
+  Coordinate_1_based = "FALSE"
 )
 )
 
@@ -299,7 +323,9 @@ meta <- rbind(meta, data.frame(
   RDataClass = "Data Frame",
   DispatchClass = "Rda",
   ResourceName = "dev_abatissuesBygenes.rda",
-  RDataPath = "brainImageRdata/data/dev_abatissuesBygenes.rda"
+  RDataPath = "brainimageRdata/data/dev_abatissuesBygenes.rda",
+  Genome = "NA",
+  Coordinate_1_based = "FALSE"
 )
 )
 
@@ -322,7 +348,9 @@ meta <- rbind(meta, data.frame(
   RDataClass = "Data Frame",
   DispatchClass = "Rda",
   ResourceName = "ad_abatissuesBygenes.rda",
-  RDataPath = "brainImageRdata/data/ad_abatissuesBygenes.rda"
+  RDataPath = "brainimageRdata/data/ad_abatissuesBygenes.rda",
+  Genome = "NA",
+  Coordinate_1_based = "FALSE"
 )
 )
 
@@ -344,7 +372,9 @@ meta <- rbind(meta, data.frame(
   RDataClass = "Data Frame",
   DispatchClass = "Rda",
   ResourceName = "dev_colmeta.rda",
-  RDataPath = "brainImageRdata/data/dev_colmeta.rda"
+  RDataPath = "brainimageRdata/data/dev_colmeta.rda",
+  Genome = "NA",
+  Coordinate_1_based = "FALSE"
 )
 )
 
@@ -366,7 +396,9 @@ meta <- rbind(meta, data.frame(
   RDataClass = "Data Frame",
   DispatchClass = "Rda",
   ResourceName = "ad_colmeta.rda",
-  RDataPath = "brainImageRdata/data/ad_colmeta.rda"
+  RDataPath = "brainimageRdata/data/ad_colmeta.rda",
+  Genome = "NA",
+  Coordinate_1_based = "FALSE"
 )
 )
 
@@ -389,7 +421,9 @@ meta <- rbind(meta, data.frame(
   RDataClass = "Data Frame",
   DispatchClass = "Rda",
   ResourceName = "rowmeta.rda",
-  RDataPath = "brainImageRdata/data/rowmeta.rda"
+  RDataPath = "brainimageRdata/data/rowmeta.rda",
+  Genome = "NA",
+  Coordinate_1_based = "FALSE"
 )
 )
 
@@ -412,7 +446,9 @@ meta <- rbind(meta, data.frame(
   RDataClass = "Data Frame",
   DispatchClass = "Rda",
   ResourceName = "alldev_colMeta.rda",
-  RDataPath = "brainImageRdata/data/alldev_colMeta.rda"
+  RDataPath = "brainimageRdata/data/alldev_colMeta.rda",
+  Genome = "NA",
+  Coordinate_1_based = "FALSE"
 )
 )
 
@@ -435,7 +471,9 @@ meta <- rbind(meta, data.frame(
   RDataClass = "Data Frame",
   DispatchClass = "Rda",
   ResourceName = "alldev_scale.rda",
-  RDataPath = "brainImageRdata/data/alldev_scale.rda"
+  RDataPath = "brainimageRdata/data/alldev_scale.rda",
+  Genome = "NA",
+  Coordinate_1_based = "FALSE"
 )
 )
 
@@ -458,15 +496,17 @@ meta <- rbind(meta, data.frame(
   RDataClass = "Data Frame",
   DispatchClass = "Rda",
   ResourceName = "alldev_rowMeta.rda",
-  RDataPath = "brainImageRdata/data/alldev_rowMeta.rda"
+  RDataPath = "brainimageRdata/data/alldev_rowMeta.rda",
+  Genome = "NA",
+  Coordinate_1_based = "FALSE"
 )
 )
 
 
 ## Not run:
 ## Write the data out and put in the inst/extdata directory.
-write.csv(meta, file="~/Documents/R/packages/brainImageR_miscR/brainimageRdata/inst/extdata/metadata.csv", row.names=FALSE)
+write.csv(meta, file="~/Documents/R/packages/brainimageRdata/inst/extdata/metadata.csv", row.names=FALSE)
 
 ## Test the validity of metadata.csv with readMetadataCsv():
-library(AnnotationHubData)
-AnnotationHub::readMetadataFromCsv("~/Documents/R/packages/brainImageR_miscR/brainimageRdata/inst/extdata/metadata.csv")
+library(ExperimentHubData)
+meta = makeExperimentHubMetadata("~/Documents/R/packages/brainimageRdata/")
