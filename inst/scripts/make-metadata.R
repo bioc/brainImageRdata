@@ -8,7 +8,7 @@ meta <- data.frame(
                        "images were downloaded from the Allen Brain Atlas,",
                        "then imported into photoshop where each region was individually ",
                        "masked and saved as a separated tiff image "),
-  BiocVersion = "3.7",
+  BiocVersion = "3.8",
   SourceType = "tiff",
   SourceUrl = "http://atlas.brain-map.org/",
   SourceVersion = "Accessed 2017",
@@ -33,7 +33,7 @@ meta <- rbind(meta, data.frame(
                          "images were downloaded from the Allen Brain Atlas,",
                          "then imported into photoshop where each region was individually ",
                          "masked and saved as a separated tiff image "),
-    BiocVersion = "3.7",
+    BiocVersion = "3.8",
     SourceType = "tiff",
     SourceUrl = "http://atlas.brain-map.org/",
     SourceVersion = "Accessed 2017",
@@ -59,7 +59,7 @@ meta <- rbind(meta, data.frame(
                        "reports the original dimensions for the original full image so ",
                        "that the full image can be reconstructed at the end of the  ",
                        "analysis. "),
-  BiocVersion = "3.7",
+  BiocVersion = "3.8",
   SourceType = "tiff",
   SourceUrl = "http://atlas.brain-map.org/",
   SourceVersion = "Accessed 2017",
@@ -85,7 +85,7 @@ meta <- rbind(meta, data.frame(
                        "reports the original dimensions for the original full image so ",
                        "that the full image can be reconstructed at the end of the  ",
                        "analysis. "),
-  BiocVersion = "3.7",
+  BiocVersion = "3.8",
   SourceType = "tiff",
   SourceUrl = "http://atlas.brain-map.org/",
   SourceVersion = "Accessed 2017",
@@ -110,7 +110,7 @@ meta <- rbind(meta, data.frame(
                        "Allen Brain Atlas reference map for the developing 15 pcw human brain. The object dev_abrev ",
                        "reports which brain regions are masked within a given slice for the developing 15 pcw brain.   "
                        ),
-  BiocVersion = "3.7",
+  BiocVersion = "3.8",
   SourceType = "tiff",
   SourceUrl = "http://atlas.brain-map.org/",
   SourceVersion = "Accessed 2017",
@@ -136,7 +136,7 @@ meta <- rbind(meta, data.frame(
                        "Allen Brain Atlas reference map for the adult human brain. The object ad_abrev ",
                        "reports which brain regions are masked within a given slice for the adult brain.   "
   ),
-  BiocVersion = "3.7",
+  BiocVersion = "3.8",
   SourceType = "tiff",
   SourceUrl = "http://atlas.brain-map.org/",
   SourceVersion = "Accessed 2017",
@@ -162,7 +162,7 @@ meta <- rbind(meta, data.frame(
                        "Allen Brain Atlas reference map for the developing human brain. The object dev_outline ",
                        "contains the information to draw an outline around all of these masks within the final image.   "
   ),
-  BiocVersion = "3.7",
+  BiocVersion = "3.8",
   SourceType = "tiff",
   SourceUrl = "http://atlas.brain-map.org/",
   SourceVersion = "Accessed 2017",
@@ -187,7 +187,7 @@ meta <- rbind(meta, data.frame(
                        "Allen Brain Atlas reference map for the adult human brain. The object ad_outline ",
                        "contains the information to draw an outline around all of these masks within the final image.   "
   ),
-  BiocVersion = "3.7",
+  BiocVersion = "3.8",
   SourceType = "tiff",
   SourceUrl = "http://atlas.brain-map.org/",
   SourceVersion = "Accessed 2017",
@@ -213,7 +213,7 @@ meta <- rbind(meta, data.frame(
                        "The object dev_conversion provides the information to convert between these two datasets for the developing brain "
 
   ),
-  BiocVersion = "3.7",
+  BiocVersion = "3.8",
   SourceType = "tab-delimited",
   Species = "Homo sapiens",
   TaxonomyId = 9606,
@@ -236,7 +236,7 @@ meta <- rbind(meta, data.frame(
                        "The object ad_conversion provides the information to convert between these two datasets for the adult brain "
 
   ),
-  BiocVersion = "3.7",
+  BiocVersion = "3.8",
   SourceType = "tab-delimited",
   SourceUrl = "",
   SourceVersion = "",
@@ -262,7 +262,7 @@ meta <- rbind(meta, data.frame(
                        "Allen Institute's Brain Reference Atlas."
 
   ),
-  BiocVersion = "3.7",
+  BiocVersion = "3.8",
   SourceType = "",
   SourceUrl = "http://atlas.brain-map.org/",
   SourceVersion = "Accessed 2017",
@@ -288,7 +288,7 @@ meta <- rbind(meta, data.frame(
                        "Allen Institute's Brain Reference Atlas."
 
   ),
-  BiocVersion = "3.7",
+  BiocVersion = "3.8",
   SourceType = "",
   SourceUrl = "http://atlas.brain-map.org/",
   SourceVersion = "Accessed 2017",
@@ -312,7 +312,7 @@ meta <- rbind(meta, data.frame(
                        "each microdissected structure within the 15 pcw developing brain (h376_IIIA_02). "
 
   ),
-  BiocVersion = "3.7",
+  BiocVersion = "3.8",
   SourceType = "csv",
   SourceUrl = "http://www.brainspan.org/api/v2/well_known_file_download/278442900",
   SourceVersion = "Accessed 2017",
@@ -337,7 +337,7 @@ meta <- rbind(meta, data.frame(
                        "each microdissected structure within the adult developing brain. "
 
   ),
-  BiocVersion = "3.7",
+  BiocVersion = "3.8",
   SourceType = "csv",
   SourceUrl = "http://www.brainspan.org/api/v2/well_known_file_download/278442900",
   SourceVersion = "Accessed 2017",
@@ -361,7 +361,7 @@ meta <- rbind(meta, data.frame(
 
 
   ),
-  BiocVersion = "3.7",
+  BiocVersion = "3.8",
   SourceType = "csv",
   SourceUrl = "http://www.brainspan.org/api/v2/well_known_file_download/278442900",
   SourceVersion = "Accessed 2017",
@@ -385,7 +385,7 @@ meta <- rbind(meta, data.frame(
 
 
   ),
-  BiocVersion = "3.7",
+  BiocVersion = "3.8",
   SourceType = "csv",
   SourceUrl = "http://human.brain-map.org/static/download/",
   SourceVersion = "Accessed 2017",
@@ -410,7 +410,7 @@ meta <- rbind(meta, data.frame(
 
 
   ),
-  BiocVersion = "3.7",
+  BiocVersion = "3.8",
   SourceType = "csv",
   SourceUrl = "http://www.brainspan.org/api/v2/well_known_file_download/267666525",
   SourceVersion = "Accessed 2017",
@@ -435,7 +435,7 @@ meta <- rbind(meta, data.frame(
 
 
   ),
-  BiocVersion = "3.7",
+  BiocVersion = "3.8",
   SourceType = "csv",
   SourceUrl = "http://www.brainspan.org/api/v2/well_known_file_download/267666525",
   SourceVersion = "Accessed 2017",
@@ -460,7 +460,7 @@ meta <- rbind(meta, data.frame(
 
 
   ),
-  BiocVersion = "3.7",
+  BiocVersion = "3.8",
   SourceType = "csv",
   SourceUrl = "http://www.brainspan.org/api/v2/well_known_file_download/267666525",
   SourceVersion = "Accessed 2017",
@@ -485,7 +485,7 @@ meta <- rbind(meta, data.frame(
 
 
   ),
-  BiocVersion = "3.7",
+  BiocVersion = "3.8",
   SourceType = "csv",
   SourceUrl = "http://www.brainspan.org/api/v2/well_known_file_download/267666525",
   SourceVersion = "Accessed 2017",
