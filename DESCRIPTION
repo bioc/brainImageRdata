@@ -1,7 +1,6 @@
 Package: brainimageRdata
-Type: Annotation 
 Title: Image masks and expression data for use with BrainImageR
-Version: 0.1.0
+Version: 0.99.0
 biocViews: OrganismData, Homo_sapiens_Data 
 Author: Sara Linker
 Maintainer: Sara Linker <slinker@salk.edu> 
@@ -9,3 +8,4 @@ Description: brainimageRdata contains image masks for the developing human and t
 License: CC BY-SA 4.0
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 6.0.1
