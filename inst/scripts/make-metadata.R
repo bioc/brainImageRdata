@@ -19,7 +19,7 @@ meta <- data.frame(
   RDataClass = "List",
   DispatchClass = "Rda",
   ResourceName = "DevHum_low.rda",
-  RDataPath = "brainimageRdata/data/DevHum_low.rda",
+  RDataPath = "brainImageRdata/data/DevHum_low.rda",
   Genome = "NA",
   Coordinate_1_based = "FALSE"
 )
@@ -44,7 +44,7 @@ meta <- rbind(meta, data.frame(
     RDataClass = "List",
     DispatchClass = "Rda",
     ResourceName = "AdHum.rda",
-    RDataPath = "brainimageRdata/data/AdHum.rda",
+    RDataPath = "brainImagerdata/data/AdHum.rda",
     Genome = "NA",
     Coordinate_1_based = "FALSE"
   )
@@ -70,7 +70,7 @@ meta <- rbind(meta, data.frame(
   RDataClass = "List",
   DispatchClass = "Rda",
   ResourceName = "dev_DIM.rda",
-  RDataPath = "brainimageRdata/data/dev_DIM.rda",
+  RDataPath = "brainImagerdata/data/dev_DIM.rda",
   Genome = "NA",
   Coordinate_1_based = "FALSE"
 )
@@ -96,7 +96,7 @@ meta <- rbind(meta, data.frame(
   RDataClass = "List",
   DispatchClass = "Rda",
   ResourceName = "ad_DIM.rda",
-  RDataPath = "brainimageRdata/data/ad_DIM.rda",
+  RDataPath = "brainImagerdata/data/ad_DIM.rda",
   Genome = "NA",
   Coordinate_1_based = "FALSE"
 )
@@ -121,7 +121,7 @@ meta <- rbind(meta, data.frame(
   RDataClass = "List",
   DispatchClass = "Rda",
   ResourceName = "dev_abrev.rda",
-  RDataPath = "brainimageRdata/data/dev_abrev.rda",
+  RDataPath = "brainImagerdata/data/dev_abrev.rda",
   Genome = "NA",
   Coordinate_1_based = "FALSE"
 )
@@ -147,7 +147,7 @@ meta <- rbind(meta, data.frame(
   RDataClass = "List",
   DispatchClass = "Rda",
   ResourceName = "ad_abrev.rda",
-  RDataPath = "brainimageRdata/data/ad_abrev.rda",
+  RDataPath = "brainImagerdata/data/ad_abrev.rda",
   Genome = "NA",
   Coordinate_1_based = "FALSE"
 )
@@ -173,7 +173,7 @@ meta <- rbind(meta, data.frame(
   RDataClass = "List",
   DispatchClass = "Rda",
   ResourceName = "dev_outline.rda",
-  RDataPath = "brainimageRdata/data/dev_outline.rda",
+  RDataPath = "brainImagerdata/data/dev_outline.rda",
   Genome = "NA",
   Coordinate_1_based = "FALSE"
 )
@@ -198,7 +198,7 @@ meta <- rbind(meta, data.frame(
   RDataClass = "List",
   DispatchClass = "Rda",
   ResourceName = "ad_outline.rda",
-  RDataPath = "brainimageRdata/data/ad_outline.rda",
+  RDataPath = "brainImagerdata/data/ad_outline.rda",
   Genome = "NA",
   Coordinate_1_based = "FALSE"
 )
@@ -208,7 +208,7 @@ meta <- rbind(meta, data.frame(
 ##dev_conversion
 meta <- rbind(meta, data.frame(
   Title = "Conversion between the microdissection transcriptome dataset and the position of the tissue in the reference developing brain images.",
-  Description = paste0("A major advantage of brainImageR is the ability to cross-reference two disparate datasets from the Allen Brain Atlas  ",
+  Description = paste0("A major advantage of brainImager is the ability to cross-reference two disparate datasets from the Allen Brain Atlas  ",
                        "These two datasets do not share a 1:1 relationship. As a general rule more than one microdissected tissue will be combined to generate the profile plotted over the general brain area reference atlas.   ",
                        "The object dev_conversion provides the information to convert between these two datasets for the developing brain "
 
