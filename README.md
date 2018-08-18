@@ -1,2 +1,2 @@
-# brainimageRdata
+# brainImageRdata
 Annotation for brainImageR
