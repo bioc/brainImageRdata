@@ -1,6 +1,6 @@
 Package: brainImageRdata
 Title: Image masks and expression data for use with BrainImageR
-Version: 0.99.4
+Version: 0.99.5
 biocViews: OrganismData, Homo_sapiens_Data, ExpressionData 
 Author: Sara Linker
 Maintainer: Sara Linker <slinker@salk.edu> 
