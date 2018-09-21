@@ -1,12 +1,17 @@
 Package: brainImageRdata
 Title: Image masks and expression data for use with BrainImageR
-Version: 0.99.3
+Version: 0.99.4
 biocViews: OrganismData, Homo_sapiens_Data, ExpressionData 
 Author: Sara Linker
 Maintainer: Sara Linker <slinker@salk.edu> 
-Description: brainImageRdata contains image masks for the developing human and the adult human brain. These masks can be used in conjunction with the gene expression data to generate spatial gene set enrichment plots. It also contains the expression data for the 15 pcw human brain, the adult human brain, and the developing human brain.
+Description: brainImageRdata contains image masks for the developing human
+and the adult human brain. These masks can be used in conjunction with the
+gene expression data to generate spatial gene set enrichment plots. It also
+contains the expression data for the 15 pcw human brain, the adult human
+brain, and the developing human brain.
 License: CC BY-SA 4.0
 Encoding: UTF-8
 RoxygenNote: 6.0.1
 VignetteBuilder: knitr
 Depends: ExperimentHub
+Suggests: knitr
